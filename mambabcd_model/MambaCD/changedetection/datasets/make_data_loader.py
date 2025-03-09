@@ -57,7 +57,7 @@ class ChangeDetectionDatset(Dataset):
             is_deforested = np.any(label > 0)
             if 'train' in self.data_pro_type:
                 #setting to false to not augment data
-                is_deforested = False
+                #is_deforested = False
                 if is_deforested:
                     # Add 3 augmentations for deforested chips.
                     for aug_idx in range(3):
@@ -97,8 +97,8 @@ class ChangeDetectionDatset(Dataset):
 
         # Decide which augmentation pipeline to use
         if 'train' in self.data_pro_type:
-            #setting to true to not augment data
-            is_deforested = False
+            #setting to false to not augment data
+            #is_deforested = False
             if is_deforested:
                 augmented_samples = self.__transforms(True, pre_img, post_img, label)
             else:

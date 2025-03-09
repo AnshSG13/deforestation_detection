@@ -146,9 +146,9 @@ class Inference(object):
         
         with torch.no_grad():
             for itera, data in enumerate(self.test_data_loader):
-                print("Processing chip number:", itera + 1)
+                #print("Processing chip number:", itera + 1)
                 pre_change_imgs, post_change_imgs, labels, names = data
-                print("Current chip name:", names[0])
+                #print("Current chip name:", names[0])
                 pre_change_imgs = pre_change_imgs.cuda().float()
                 post_change_imgs = post_change_imgs.cuda()
                 labels = labels.cuda().long()
@@ -159,11 +159,11 @@ class Inference(object):
 
                 # Output probabilities (with inference=True so softmax is applied)
                 output = self.deep_model(pre_change_imgs, post_change_imgs, inference=True)
-                print("Output shape:", output.shape)  # Expected: [1, 2, H, W]
+                #print("Output shape:", output.shape)  # Expected: [1, 2, H, W]
                 
                 # Extract probability map for the "changed" class.
                 prob_map = output[:, 1, :, :] if output.shape[1] > 1 else output[:, 0, :, :]
-                print("Prob_map shape before squeeze:", prob_map.shape)  # Expected: [1, H, W]
+                #print("Prob_map shape before squeeze:", prob_map.shape)  # Expected: [1, H, W]
                 
                 all_probs.append(prob_map.cpu().numpy())
                 all_labels.append(labels.cpu().numpy())

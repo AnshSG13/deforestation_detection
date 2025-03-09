@@ -49,3 +49,7 @@ kernels/selective_scan/test_selective_scan_speed.py
 kernels/selective_scan/test_selective_scan_easy.py
 kernels/selective_scan/ssmtriton.py
 test.sh
+pretrained_weight/MambaBCD_Small_SYSU_F1_0.8336.pth
+pretrained_weight/vssm_small_0229_ckpt_epoch_222.pth
+pretrained_weight/vssm_tiny_0230_ckpt_epoch_262.pth
+
