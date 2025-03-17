@@ -1,0 +1,8 @@
+# Ignore everything by default
+*
+
+# Except these folders
+!changeformer/
+!mambabcd_model/
+!.gitignore
+
