@@ -1,0 +1,13 @@
+Loading conda
+Loading cuda version 12.6
+Loading cudnn version 8.9.7.29-12
+Traceback (most recent call last):
+  File "main_cd.py", line 73, in <module>
+    utils.get_device(args)
+  File "/home/asadhgauri_umass_edu/deforestation_detection/changeformer/ChangeFormer/utils.py", line 135, in get_device
+    torch.cuda.set_device(args.gpu_ids[0])
+  File "/work/pi_jaimedavila_umass_edu/asadhgauri_umass_edu/.conda/envs/ChangeFormer/lib/python3.8/site-packages/torch/cuda/__init__.py", line 311, in set_device
+    torch._C._cuda_setDevice(device)
+  File "/work/pi_jaimedavila_umass_edu/asadhgauri_umass_edu/.conda/envs/ChangeFormer/lib/python3.8/site-packages/torch/cuda/__init__.py", line 214, in _lazy_init
+    torch._C._cuda_init()
+RuntimeError: No CUDA GPUs are available

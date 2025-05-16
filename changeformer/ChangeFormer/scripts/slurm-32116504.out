@@ -1,0 +1,278 @@
+True
+[0]
+Total training samples (base count): 73
+initialize network with normal
+cuda:0
+================ (Mon Apr 14 04:47:17 2025) ================
+gpu_ids: [0] project_name: CD_ChangeFormerV6_deforestation_b16_lr0.0001_adamw_train_test_200_linear_ce_multi_train_True_multi_infer_False_shuffle_AB_False_embed_dim_256 checkpoint_root: checkpoints vis_root: vis num_workers: 1 dataset: CDDataset data_name: deforestation batch_size: 16 split: train split_val: test img_size: 256 shuffle_AB: False n_class: 2 embed_dim: 256 pretrain: None multi_scale_train: True multi_scale_infer: False multi_pred_weights: [0.5, 0.5, 0.5, 0.8, 1.0] net_G: ChangeFormerV6 loss: ce optimizer: adamw lr: 0.0001 max_epochs: 200 lr_policy: linear lr_decay_iters: 100 checkpoint_dir: checkpoints/CD_ChangeFormerV6_deforestation_b16_lr0.0001_adamw_train_test_200_linear_ce_multi_train_True_multi_infer_False_shuffle_AB_False_embed_dim_256 vis_dir: vis/CD_ChangeFormerV6_deforestation_b16_lr0.0001_adamw_train_test_200_linear_ce_multi_train_True_multi_infer_False_shuffle_AB_False_embed_dim_256 
+
+training from scratch...
+
+
+lr: 0.0001000
+ 
+Is_training: True. [0,199][1,5], imps: 121.52, est: 0.58h, G_loss: 14.07629, running_mf1: 0.39169
+Is_training: True. Epoch 0 / 199, epoch_mF1= 0.44987
+acc: 0.69533 miou: 0.36704 mf1: 0.44987 iou_0: 0.69110 iou_1: 0.04298 F1_0: 0.81734 F1_1: 0.08241 precision_0: 0.97558 precision_1: 0.04541 recall_0: 0.70327 recall_1: 0.44502 
+
+Begin evaluation...
+Is_training: False. Epoch 0 / 199, epoch_mF1= 0.50943
+acc: 0.90248 miou: 0.46928 mf1: 0.50943 iou_0: 0.90212 iou_1: 0.03645 F1_0: 0.94854 F1_1: 0.07033 precision_0: 0.93948 precision_1: 0.08517 recall_0: 0.95778 recall_1: 0.05989 
+
+Latest model updated. Epoch_acc=0.5094, Historical_best_acc=0.0000 (at epoch 0)
+
+**********Best model updated!
+
+lr: 0.0000995
+ 
+Is_training: True. [1,199][1,5], imps: 146.23, est: 0.48h, G_loss: 13.84877, running_mf1: 0.57717
+Is_training: True. Epoch 1 / 199, epoch_mF1= 0.58323
+acc: 0.91918 miou: 0.51751 mf1: 0.58323 iou_0: 0.91831 iou_1: 0.11672 F1_0: 0.95742 F1_1: 0.20904 precision_0: 0.97839 precision_1: 0.14950 recall_0: 0.93732 recall_1: 0.34736 
+
+Begin evaluation...
+Is_training: False. Epoch 1 / 199, epoch_mF1= 0.51146
+acc: 0.91981 miou: 0.47654 mf1: 0.51146 iou_0: 0.91958 iou_1: 0.03349 F1_0: 0.95811 F1_1: 0.06481 precision_0: 0.93973 precision_1: 0.11500 recall_0: 0.97721 recall_1: 0.04512 
+
+Latest model updated. Epoch_acc=0.5115, Historical_best_acc=0.5094 (at epoch 0)
+
+**********Best model updated!
+
+lr: 0.0000990
+ 
+Is_training: True. [2,199][1,5], imps: 151.27, est: 0.46h, G_loss: 11.56294, running_mf1: 0.77424
+Is_training: True. Epoch 2 / 199, epoch_mF1= 0.63545
+acc: 0.95558 miou: 0.56369 mf1: 0.63545 iou_0: 0.95517 iou_1: 0.17222 F1_0: 0.97707 F1_1: 0.29383 precision_0: 0.97778 precision_1: 0.28737 recall_0: 0.97636 recall_1: 0.30059 
+
+Begin evaluation...
+Is_training: False. Epoch 2 / 199, epoch_mF1= 0.49238
+acc: 0.93562 miou: 0.47234 mf1: 0.49238 iou_0: 0.93558 iou_1: 0.00910 F1_0: 0.96672 F1_1: 0.01803 precision_0: 0.93876 precision_1: 0.14884 recall_0: 0.99640 recall_1: 0.00960 
+
+Latest model updated. Epoch_acc=0.4924, Historical_best_acc=0.5115 (at epoch 1)
+
+lr: 0.0000985
+ 
+Is_training: True. [3,199][1,5], imps: 158.12, est: 0.44h, G_loss: 11.29087, running_mf1: 0.53589
+Is_training: True. Epoch 3 / 199, epoch_mF1= 0.51721
+acc: 0.96878 miou: 0.49728 mf1: 0.51721 iou_0: 0.96875 iou_1: 0.02580 F1_0: 0.98413 F1_1: 0.05030 precision_0: 0.97002 precision_1: 0.38828 recall_0: 0.99866 recall_1: 0.02689 
+
+Begin evaluation...
+Is_training: False. Epoch 3 / 199, epoch_mF1= 0.48509
+acc: 0.93840 miou: 0.46969 mf1: 0.48509 iou_0: 0.93840 iou_1: 0.00098 F1_0: 0.96822 F1_1: 0.00195 precision_0: 0.93846 precision_1: 0.47222 recall_0: 0.99993 recall_1: 0.00098 
+
+Latest model updated. Epoch_acc=0.4851, Historical_best_acc=0.5115 (at epoch 1)
+
+lr: 0.0000980
+ 
+Is_training: True. [4,199][1,5], imps: 161.49, est: 0.43h, G_loss: 11.83691, running_mf1: 0.51835
+Is_training: True. Epoch 4 / 199, epoch_mF1= 0.50251
+acc: 0.96888 miou: 0.48970 mf1: 0.50251 iou_0: 0.96887 iou_1: 0.01053 F1_0: 0.98419 F1_1: 0.02083 precision_0: 0.96956 precision_1: 0.31785 recall_0: 0.99927 recall_1: 0.01077 
+
+Begin evaluation...
+Is_training: False. Epoch 4 / 199, epoch_mF1= 0.48693
+acc: 0.93371 miou: 0.46889 mf1: 0.48693 iou_0: 0.93369 iou_1: 0.00410 F1_0: 0.96571 F1_1: 0.00816 precision_0: 0.93836 precision_1: 0.05196 recall_0: 0.99470 recall_1: 0.00443 
+
+Latest model updated. Epoch_acc=0.4869, Historical_best_acc=0.5115 (at epoch 1)
+
+lr: 0.0000975
+ 
+Is_training: True. [5,199][1,5], imps: 164.40, est: 0.42h, G_loss: 7.19832, running_mf1: 0.49045
+Is_training: True. Epoch 5 / 199, epoch_mF1= 0.50801
+acc: 0.96877 miou: 0.49248 mf1: 0.50801 iou_0: 0.96875 iou_1: 0.01620 F1_0: 0.98413 F1_1: 0.03189 precision_0: 0.96972 precision_1: 0.33859 recall_0: 0.99896 recall_1: 0.01673 
+
+Begin evaluation...
+Is_training: False. Epoch 5 / 199, epoch_mF1= 0.47987
+acc: 0.92227 miou: 0.46118 mf1: 0.47987 iou_0: 0.92227 iou_1: 0.00009 F1_0: 0.95956 F1_1: 0.00018 precision_0: 0.93741 precision_1: 0.00044 recall_0: 0.98279 recall_1: 0.00011 
+
+Latest model updated. Epoch_acc=0.4799, Historical_best_acc=0.5115 (at epoch 1)
+
+lr: 0.0000970
+ 
+Is_training: True. [6,199][1,5], imps: 166.57, est: 0.41h, G_loss: 11.09216, running_mf1: 0.76526
+Is_training: True. Epoch 6 / 199, epoch_mF1= 0.62396
+acc: 0.97114 miou: 0.56108 mf1: 0.62396 iou_0: 0.97099 iou_1: 0.15117 F1_0: 0.98528 F1_1: 0.26264 precision_0: 0.97418 precision_1: 0.61226 recall_0: 0.99664 recall_1: 0.16718 
+
+Begin evaluation...
+Is_training: False. Epoch 6 / 199, epoch_mF1= 0.48556
+acc: 0.91722 miou: 0.46219 mf1: 0.48556 iou_0: 0.91717 iou_1: 0.00722 F1_0: 0.95680 F1_1: 0.01433 precision_0: 0.93762 precision_1: 0.02687 recall_0: 0.97678 recall_1: 0.00977 
+
+Latest model updated. Epoch_acc=0.4856, Historical_best_acc=0.5115 (at epoch 1)
+
+lr: 0.0000965
+ 
+Is_training: True. [7,199][1,5], imps: 169.29, est: 0.40h, G_loss: 9.71239, running_mf1: 0.65432
+Is_training: True. Epoch 7 / 199, epoch_mF1= 0.65221
+acc: 0.97166 miou: 0.58058 mf1: 0.65221 iou_0: 0.97147 iou_1: 0.18970 F1_0: 0.98553 F1_1: 0.31890 precision_0: 0.97563 precision_1: 0.61046 recall_0: 0.99563 recall_1: 0.21582 
+
+Begin evaluation...
+Is_training: False. Epoch 7 / 199, epoch_mF1= 0.48297
+acc: 0.93411 miou: 0.46706 mf1: 0.48297 iou_0: 0.93411 iou_1: 0.00000 F1_0: 0.96593 F1_1: 0.00000 precision_0: 0.93815 precision_1: 0.00000 recall_0: 0.99542 recall_1: 0.00000 
+
+Latest model updated. Epoch_acc=0.4830, Historical_best_acc=0.5115 (at epoch 1)
+
+lr: 0.0000960
+ 
+Is_training: True. [8,199][1,5], imps: 170.58, est: 0.40h, G_loss: 13.51645, running_mf1: 0.81449
+Is_training: True. Epoch 8 / 199, epoch_mF1= 0.62457
+acc: 0.97302 miou: 0.56211 mf1: 0.62457 iou_0: 0.97289 iou_1: 0.15133 F1_0: 0.98626 F1_1: 0.26287 precision_0: 0.97391 precision_1: 0.82185 recall_0: 0.99892 recall_1: 0.15646 
+
+Begin evaluation...
+Is_training: False. Epoch 8 / 199, epoch_mF1= 0.52078
+acc: 0.90916 miou: 0.47776 mf1: 0.52078 iou_0: 0.90876 iou_1: 0.04677 F1_0: 0.95220 F1_1: 0.08936 precision_0: 0.94060 precision_1: 0.11679 recall_0: 0.96408 recall_1: 0.07236 
+
+Latest model updated. Epoch_acc=0.5208, Historical_best_acc=0.5115 (at epoch 1)
+
+**********Best model updated!
+
+lr: 0.0000955
+ 
+Is_training: True. [9,199][1,5], imps: 169.33, est: 0.40h, G_loss: 12.47173, running_mf1: 0.49695
+Is_training: True. Epoch 9 / 199, epoch_mF1= 0.67635
+acc: 0.97293 miou: 0.59856 mf1: 0.67635 iou_0: 0.97272 iou_1: 0.22439 F1_0: 0.98617 F1_1: 0.36653 precision_0: 0.97681 precision_1: 0.65349 recall_0: 0.99572 recall_1: 0.25469 
+
+Begin evaluation...
+Is_training: False. Epoch 9 / 199, epoch_mF1= 0.54252
+acc: 0.90617 miou: 0.48883 mf1: 0.54252 iou_0: 0.90548 iou_1: 0.07218 F1_0: 0.95040 F1_1: 0.13464 precision_0: 0.94304 precision_1: 0.15585 recall_0: 0.95787 recall_1: 0.11852 
+
+Latest model updated. Epoch_acc=0.5425, Historical_best_acc=0.5208 (at epoch 8)
+
+**********Best model updated!
+
+lr: 0.0000950
+ 
+Is_training: True. [10,199][1,5], imps: 167.89, est: 0.40h, G_loss: 8.30440, running_mf1: 0.49804
+Is_training: True. Epoch 10 / 199, epoch_mF1= 0.73982
+acc: 0.97728 miou: 0.65132 mf1: 0.73982 iou_0: 0.97703 iou_1: 0.32560 F1_0: 0.98838 F1_1: 0.49125 precision_0: 0.97994 precision_1: 0.78867 recall_0: 0.99697 recall_1: 0.35672 
+
+Begin evaluation...
+Is_training: False. Epoch 10 / 199, epoch_mF1= 0.49897
+acc: 0.90823 miou: 0.46582 mf1: 0.49897 iou_0: 0.90802 iou_1: 0.02361 F1_0: 0.95179 F1_1: 0.04614 precision_0: 0.93850 precision_1: 0.06410 recall_0: 0.96547 recall_1: 0.03604 
+
+Latest model updated. Epoch_acc=0.4990, Historical_best_acc=0.5425 (at epoch 9)
+
+lr: 0.0000945
+ 
+Is_training: True. [11,199][1,5], imps: 168.31, est: 0.40h, G_loss: 6.85113, running_mf1: 0.63730
+Is_training: True. Epoch 11 / 199, epoch_mF1= 0.64285
+acc: 0.97373 miou: 0.57471 mf1: 0.64285 iou_0: 0.97358 iou_1: 0.17584 F1_0: 0.98661 F1_1: 0.29908 precision_0: 0.97469 precision_1: 0.83138 recall_0: 0.99883 recall_1: 0.18234 
+
+Begin evaluation...
+Is_training: False. Epoch 11 / 199, epoch_mF1= 0.48101
+acc: 0.90832 miou: 0.45667 mf1: 0.48101 iou_0: 0.90828 iou_1: 0.00507 F1_0: 0.95193 F1_1: 0.01009 precision_0: 0.93692 precision_1: 0.01506 recall_0: 0.96743 recall_1: 0.00759 
+
+Latest model updated. Epoch_acc=0.4810, Historical_best_acc=0.5425 (at epoch 9)
+
+lr: 0.0000940
+ 
+Is_training: True. [12,199][1,5], imps: 168.90, est: 0.39h, G_loss: 10.12821, running_mf1: 0.49511
+Is_training: True. Epoch 12 / 199, epoch_mF1= 0.72765
+acc: 0.97636 miou: 0.64054 mf1: 0.72765 iou_0: 0.97611 iou_1: 0.30496 F1_0: 0.98791 F1_1: 0.46739 precision_0: 0.97935 precision_1: 0.76030 recall_0: 0.99663 recall_1: 0.33740 
+
+Begin evaluation...
+Is_training: False. Epoch 12 / 199, epoch_mF1= 0.48287
+acc: 0.91033 miou: 0.45833 mf1: 0.48287 iou_0: 0.91027 iou_1: 0.00639 F1_0: 0.95303 F1_1: 0.01271 precision_0: 0.93715 precision_1: 0.01973 recall_0: 0.96946 recall_1: 0.00937 
+
+Latest model updated. Epoch_acc=0.4829, Historical_best_acc=0.5425 (at epoch 9)
+
+lr: 0.0000935
+ 
+Is_training: True. [13,199][1,5], imps: 169.61, est: 0.39h, G_loss: 10.70773, running_mf1: 0.49939
+Is_training: True. Epoch 13 / 199, epoch_mF1= 0.76577
+acc: 0.97852 miou: 0.67525 mf1: 0.76577 iou_0: 0.97824 iou_1: 0.37225 F1_0: 0.98900 F1_1: 0.54254 precision_0: 0.98170 precision_1: 0.78582 recall_0: 0.99642 recall_1: 0.41428 
+
+Begin evaluation...
+Is_training: False. Epoch 13 / 199, epoch_mF1= 0.48152
+acc: 0.92036 miou: 0.46130 mf1: 0.48152 iou_0: 0.92035 iou_1: 0.00226 F1_0: 0.95852 F1_1: 0.00451 precision_0: 0.93744 precision_1: 0.00981 recall_0: 0.98057 recall_1: 0.00293 
+
+Latest model updated. Epoch_acc=0.4815, Historical_best_acc=0.5425 (at epoch 9)
+
+lr: 0.0000930
+ 
+Is_training: True. [14,199][1,5], imps: 170.15, est: 0.39h, G_loss: 9.44022, running_mf1: 0.49572
+Is_training: True. Epoch 14 / 199, epoch_mF1= 0.70651
+acc: 0.97661 miou: 0.62311 mf1: 0.70651 iou_0: 0.97641 iou_1: 0.26981 F1_0: 0.98806 F1_1: 0.42496 precision_0: 0.97768 precision_1: 0.87041 recall_0: 0.99867 recall_1: 0.28110 
+
+Begin evaluation...
+Is_training: False. Epoch 14 / 199, epoch_mF1= 0.48575
+acc: 0.91808 miou: 0.46260 mf1: 0.48575 iou_0: 0.91803 iou_1: 0.00716 F1_0: 0.95726 F1_1: 0.01423 precision_0: 0.93766 precision_1: 0.02748 recall_0: 0.97770 recall_1: 0.00960 
+
+Latest model updated. Epoch_acc=0.4857, Historical_best_acc=0.5425 (at epoch 9)
+
+lr: 0.0000925
+ 
+Is_training: True. [15,199][1,5], imps: 170.48, est: 0.39h, G_loss: 9.99291, running_mf1: 0.85312
+Is_training: True. Epoch 15 / 199, epoch_mF1= 0.79621
+acc: 0.98036 miou: 0.70559 mf1: 0.79621 iou_0: 0.98006 iou_1: 0.43112 F1_0: 0.98993 F1_1: 0.60249 precision_0: 0.98384 precision_1: 0.79739 recall_0: 0.99610 recall_1: 0.48415 
+
+Begin evaluation...
+Is_training: False. Epoch 15 / 199, epoch_mF1= 0.48305
+acc: 0.91040 miou: 0.45845 mf1: 0.48305 iou_0: 0.91035 iou_1: 0.00655 F1_0: 0.95307 F1_1: 0.01302 precision_0: 0.93717 precision_1: 0.02025 recall_0: 0.96952 recall_1: 0.00960 
+
+Latest model updated. Epoch_acc=0.4830, Historical_best_acc=0.5425 (at epoch 9)
+
+lr: 0.0000920
+ 
+Is_training: True. [16,199][1,5], imps: 171.58, est: 0.38h, G_loss: 10.06420, running_mf1: 0.49803
+Is_training: True. Epoch 16 / 199, epoch_mF1= 0.80244
+acc: 0.98202 miou: 0.71243 mf1: 0.80244 iou_0: 0.98176 iou_1: 0.44310 F1_0: 0.99080 F1_1: 0.61409 precision_0: 0.98330 precision_1: 0.90279 recall_0: 0.99841 recall_1: 0.46530 
+
+Begin evaluation...
+Is_training: False. Epoch 16 / 199, epoch_mF1= 0.48182
+acc: 0.92947 miou: 0.46479 mf1: 0.48182 iou_0: 0.92947 iou_1: 0.00010 F1_0: 0.96345 F1_1: 0.00020 precision_0: 0.93786 precision_1: 0.00079 recall_0: 0.99047 recall_1: 0.00011 
+
+Latest model updated. Epoch_acc=0.4818, Historical_best_acc=0.5425 (at epoch 9)
+
+lr: 0.0000915
+ 
+Is_training: True. [17,199][1,5], imps: 172.14, est: 0.38h, G_loss: 13.31504, running_mf1: 0.86060
+Is_training: True. Epoch 17 / 199, epoch_mF1= 0.84321
+acc: 0.98355 miou: 0.75783 mf1: 0.84321 iou_0: 0.98323 iou_1: 0.53242 F1_0: 0.99155 F1_1: 0.69487 precision_0: 0.98771 precision_1: 0.80825 recall_0: 0.99541 recall_1: 0.60939 
+
+Begin evaluation...
+Is_training: False. Epoch 17 / 199, epoch_mF1= 0.48327
+acc: 0.93524 miou: 0.46762 mf1: 0.48327 iou_0: 0.93524 iou_1: 0.00000 F1_0: 0.96654 F1_1: 0.00000 precision_0: 0.93822 precision_1: 0.00000 recall_0: 0.99662 recall_1: 0.00000 
+
+Latest model updated. Epoch_acc=0.4833, Historical_best_acc=0.5425 (at epoch 9)
+
+lr: 0.0000910
+ 
+Is_training: True. [18,199][1,5], imps: 172.62, est: 0.37h, G_loss: 8.03233, running_mf1: 0.63641
+Is_training: True. Epoch 18 / 199, epoch_mF1= 0.81653
+acc: 0.98161 miou: 0.72730 mf1: 0.81653 iou_0: 0.98130 iou_1: 0.47329 F1_0: 0.99056 F1_1: 0.64250 precision_0: 0.98548 precision_1: 0.79850 recall_0: 0.99570 recall_1: 0.53749 
+
+Begin evaluation...
+Is_training: False. Epoch 18 / 199, epoch_mF1= 0.48006
+acc: 0.90598 miou: 0.45535 mf1: 0.48006 iou_0: 0.90594 iou_1: 0.00476 F1_0: 0.95065 F1_1: 0.00947 precision_0: 0.93675 precision_1: 0.01349 recall_0: 0.96496 recall_1: 0.00730 
+
+Latest model updated. Epoch_acc=0.4801, Historical_best_acc=0.5425 (at epoch 9)
+
+lr: 0.0000905
+ 
+Is_training: True. [19,199][1,5], imps: 172.55, est: 0.37h, G_loss: 6.46257, running_mf1: 0.74794
+Is_training: True. Epoch 19 / 199, epoch_mF1= 0.81688
+acc: 0.98166 miou: 0.72769 mf1: 0.81688 iou_0: 0.98135 iou_1: 0.47404 F1_0: 0.99059 F1_1: 0.64318 precision_0: 0.98549 precision_1: 0.80014 recall_0: 0.99574 recall_1: 0.53770 
+
+Begin evaluation...
+Is_training: False. Epoch 19 / 199, epoch_mF1= 0.49201
+acc: 0.90431 miou: 0.46082 mf1: 0.49201 iou_0: 0.90415 iou_1: 0.01748 F1_0: 0.94966 F1_1: 0.03437 precision_0: 0.93778 precision_1: 0.04540 recall_0: 0.96185 recall_1: 0.02765 
+
+Latest model updated. Epoch_acc=0.4920, Historical_best_acc=0.5425 (at epoch 9)
+
+lr: 0.0000900
+ 
+Is_training: True. [20,199][1,5], imps: 173.16, est: 0.37h, G_loss: 8.25729, running_mf1: 0.94444
+Is_training: True. Epoch 20 / 199, epoch_mF1= 0.84322
+acc: 0.98426 miou: 0.75798 mf1: 0.84322 iou_0: 0.98397 iou_1: 0.53199 F1_0: 0.99192 F1_1: 0.69451 precision_0: 0.98688 precision_1: 0.86086 recall_0: 0.99702 recall_1: 0.58204 
+
+Begin evaluation...
+Validation loss did not improve for 10 epochs. Stopping early.
+Training complete. Curves saved to checkpoints/CD_ChangeFormerV6_deforestation_b16_lr0.0001_adamw_train_test_200_linear_ce_multi_train_True_multi_infer_False_shuffle_AB_False_embed_dim_256
+initialize network with normal
+cuda:0
+================ (Mon Apr 14 04:49:52 2025) ================
+gpu_ids: [0] project_name: CD_ChangeFormerV6_deforestation_b16_lr0.0001_adamw_train_test_200_linear_ce_multi_train_True_multi_infer_False_shuffle_AB_False_embed_dim_256 checkpoint_root: checkpoints vis_root: vis num_workers: 1 dataset: CDDataset data_name: deforestation batch_size: 16 split: train split_val: test img_size: 256 shuffle_AB: False n_class: 2 embed_dim: 256 pretrain: None multi_scale_train: True multi_scale_infer: False multi_pred_weights: [0.5, 0.5, 0.5, 0.8, 1.0] net_G: ChangeFormerV6 loss: ce optimizer: adamw lr: 0.0001 max_epochs: 200 lr_policy: linear lr_decay_iters: 100 checkpoint_dir: checkpoints/CD_ChangeFormerV6_deforestation_b16_lr0.0001_adamw_train_test_200_linear_ce_multi_train_True_multi_infer_False_shuffle_AB_False_embed_dim_256 vis_dir: vis/CD_ChangeFormerV6_deforestation_b16_lr0.0001_adamw_train_test_200_linear_ce_multi_train_True_multi_infer_False_shuffle_AB_False_embed_dim_256 loading last checkpoint...
+Eval Historical_best_acc = 0.5425 (at epoch 9)
+
+Begin evaluation...
+Is_training: False. [1,2],  running_mf1: 0.49516
+acc: 0.97266 miou: 0.48643 mf1: 0.49327 iou_0: 0.97265 iou_1: 0.00020 F1_0: 0.98614 F1_1: 0.00041 precision_0: 0.99313 precision_1: 0.00027 recall_0: 0.97925 recall_1: 0.00083 
+

@@ -1,0 +1,38 @@
+Loading conda
+Loading cuda version 12.6
+Loading cudnn version 8.9.7.29-12
+  0%|          | 0/167 [00:00<?, ?it/s]/work/pi_jaimedavila_umass_edu/asadhgauri_umass_edu/.conda/envs/ChangeFormer/lib/python3.8/site-packages/torch/nn/functional.py:3631: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  warnings.warn(
+  0%|          | 0/167 [00:02<?, ?it/s]
+Traceback (most recent call last):
+  File "main_cd.py", line 83, in <module>
+    train(args)
+  File "main_cd.py", line 15, in train
+    model.train_models()
+  File "/home/asadhgauri_umass_edu/deforestation_detection/changeformer/ChangeFormer/models/trainer.py", line 325, in train_models
+    self._forward_pass(batch)
+  File "/home/asadhgauri_umass_edu/deforestation_detection/changeformer/ChangeFormer/models/trainer.py", line 275, in _forward_pass
+    self.G_pred = self.net_G(img_in1, img_in2)
+  File "/work/pi_jaimedavila_umass_edu/asadhgauri_umass_edu/.conda/envs/ChangeFormer/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/asadhgauri_umass_edu/deforestation_detection/changeformer/ChangeFormer/models/ChangeFormer.py", line 1684, in forward
+    cp = self.TDec_x2(fx1, fx2)
+  File "/work/pi_jaimedavila_umass_edu/asadhgauri_umass_edu/.conda/envs/ChangeFormer/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/asadhgauri_umass_edu/deforestation_detection/changeformer/ChangeFormer/models/ChangeFormer.py", line 1607, in forward
+    x = self.dense_1x(x)
+  File "/work/pi_jaimedavila_umass_edu/asadhgauri_umass_edu/.conda/envs/ChangeFormer/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/work/pi_jaimedavila_umass_edu/asadhgauri_umass_edu/.conda/envs/ChangeFormer/lib/python3.8/site-packages/torch/nn/modules/container.py", line 141, in forward
+    input = module(input)
+  File "/work/pi_jaimedavila_umass_edu/asadhgauri_umass_edu/.conda/envs/ChangeFormer/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/asadhgauri_umass_edu/deforestation_detection/changeformer/ChangeFormer/models/ChangeFormerBaseNetworks.py", line 117, in forward
+    out = self.relu(self.conv1(x))
+  File "/work/pi_jaimedavila_umass_edu/asadhgauri_umass_edu/.conda/envs/ChangeFormer/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/work/pi_jaimedavila_umass_edu/asadhgauri_umass_edu/.conda/envs/ChangeFormer/lib/python3.8/site-packages/torch/nn/modules/activation.py", line 98, in forward
+    return F.relu(input, inplace=self.inplace)
+  File "/work/pi_jaimedavila_umass_edu/asadhgauri_umass_edu/.conda/envs/ChangeFormer/lib/python3.8/site-packages/torch/nn/functional.py", line 1299, in relu
+    result = torch.relu(input)
+RuntimeError: CUDA out of memory. Tried to allocate 1024.00 MiB (GPU 0; 10.75 GiB total capacity; 8.83 GiB already allocated; 864.69 MiB free; 8.87 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF

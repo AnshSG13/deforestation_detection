@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+MambaCD.egg-info/PKG-INFO
+MambaCD.egg-info/SOURCES.txt
+MambaCD.egg-info/dependency_links.txt
+MambaCD.egg-info/requires.txt
+MambaCD.egg-info/top_level.txt

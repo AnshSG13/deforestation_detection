@@ -1,0 +1,11 @@
+# Ignore everything
+*
+
+# But not these directories
+!changeformer/
+!mambabcd_model/
+!.gitignore
+
+# And don't ignore anything inside these directories
+!changeformer/**
+!mambabcd_model/**

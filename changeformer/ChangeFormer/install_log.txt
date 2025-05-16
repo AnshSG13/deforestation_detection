@@ -1,0 +1,228 @@
+Channels:
+ - conda-forge
+ - defaults
+ - pytorch
+Platform: linux-64
+Collecting package metadata (repodata.json): ...working... done
+Solving environment: ...working... warning  libmamba Added empty dependency for problem type SOLVER_RULE_UPDATE
+failed
+
+LibMambaUnsatisfiableError: Encountered problems while solving:
+  - nothing provides libopencv 4.2.0 py36_5 needed by opencv-4.2.0-py36_5
+
+Could not solve for environment specs
+The following packages are incompatible
+├─ _openmp_mutex 4.5**  is requested and can be installed;
+├─ ffmpeg 4.3**  is requested and can be installed;
+├─ icu 64.2**  is requested and can be installed;
+├─ numpy-base 1.21.2**  is installable with the potential options
+│  ├─ numpy-base 1.21.2 would require
+│  │  └─ numpy 1.21.2 py38h20f2e39_0, which can be installed;
+│  ├─ numpy-base 1.21.2 would require
+│  │  └─ python >=3.10,<3.11.0a0 , which can be installed;
+│  ├─ numpy-base 1.21.2 would require
+│  │  └─ python >=3.7,<3.8.0a0 , which can be installed;
+│  ├─ numpy-base 1.21.2 would require
+│  │  └─ numpy 1.21.2 py38hd8d4704_0, which can be installed;
+│  └─ numpy-base 1.21.2 would require
+│     └─ python >=3.9,<3.10.0a0 , which can be installed;
+├─ opencv is installable with the potential options
+│  ├─ opencv 4.5.4 would require
+│  │  └─ numpy 1.16.*  with the potential options
+│  │     ├─ numpy [1.16.0|1.16.1|...|1.16.6] would require
+│  │     │  └─ python >=2.7,<2.8.0a0 , which can be installed;
+│  │     ├─ numpy [1.16.0|1.16.1|...|1.16.6] would require
+│  │     │  └─ python >=3.6,<3.7.0a0 , which can be installed;
+│  │     ├─ numpy [1.16.0|1.16.1|...|1.16.6] would require
+│  │     │  └─ python >=3.7,<3.8.0a0 , which can be installed;
+│  │     ├─ numpy [1.16.5|1.16.6] conflicts with any installable versions previously reported;
+│  │     └─ numpy 1.16.6 would require
+│  │        └─ python >=3.9,<3.10.0a0 , which can be installed;
+│  ├─ opencv [2.4.12|2.4.13|...|4.1.0] would require
+│  │  ├─ py-opencv 3.4.7 py27h5ca1d4c_5, which requires
+│  │  │  └─ python >=2.7,<2.8.0a0 , which can be installed;
+│  │  └─ python [2.7* |>=2.7,<2.8.0a0 ], which can be installed;
+│  ├─ opencv 3.1.0 would require
+│  │  └─ python 3.4* , which can be installed;
+│  ├─ opencv [3.1.0|3.2.0|...|3.4.3] would require
+│  │  └─ python [3.5* |>=3.5,<3.6.0a0 ], which can be installed;
+│  ├─ opencv [3.1.0|3.2.0|...|4.5.3] would require
+│  │  ├─ python 3.6* , which can be installed;
+│  │  └─ python_abi 3.6.* *_cp36m, which requires
+│  │     └─ python 3.6.* , which can be installed;
+│  ├─ opencv [3.3.1|3.4.1|...|4.5.2] would require
+│  │  ├─ py-opencv [4.2.0 py36h0b673f9_6|4.3.0 py36h0b673f9_2|...|4.5.2 py36he2ddec3_0], which requires
+│  │  │  └─ python >=3.6,<3.7.0a0 , which can be installed;
+│  │  └─ python >=3.6,<3.7.0a0 , which can be installed;
+│  ├─ opencv [3.4.4|3.4.7|...|4.2.0] would require
+│  │  ├─ ffmpeg >=4.1.3,<4.2.0a0 , which conflicts with any installable versions previously reported;
+│  │  └─ libopencv [3.4.7 h0cc45ee_4|3.4.7 h32d60f7_6|...|4.2.0 py38_4], which requires
+│  │     └─ ffmpeg >=4.1.3,<4.2.0a0 , which conflicts with any installable versions previously reported;
+│  ├─ opencv [3.4.1|3.4.2|...|4.6.0] would require
+│  │  ├─ py-opencv [4.2.0 py37h43977f1_5|4.2.0 py37h43977f1_6|...|4.6.0 py37hf05f0b3_5], which requires
+│  │  │  └─ python >=3.7,<3.8.0a0 , which can be installed;
+│  │  └─ python >=3.7,<3.8.0a0 , which can be installed;
+│  ├─ opencv 4.2.0 would require
+│  │  └─ libopencv 4.2.0 py36_5, which does not exist (perhaps a missing channel);
+│  ├─ opencv [4.2.0|4.3.0] would require
+│  │  └─ libopencv [4.2.0 py36_7|4.2.0 py37_7|...|4.3.0 py38_1], which requires
+│  │     └─ ffmpeg >=4.2.3,<4.3.0a0 , which conflicts with any installable versions previously reported;
+│  ├─ opencv [4.2.0|4.3.0|...|4.5.2] would require
+│  │  └─ libopencv [4.2.0 py38_5|4.2.0 py38_6|...|4.5.2 py38hcdf9bf1_0], which requires
+│  │     └─ qt 5.12.*  with the potential options
+│  │        ├─ qt [5.12.1|5.12.5|5.12.6|5.12.9], which can be installed;
+│  │        ├─ qt 5.12.9 would require
+│  │        │  └─ icu >=69.1,<70.0a0 , which conflicts with any installable versions previously reported;
+│  │        └─ qt 5.12.9 would require
+│  │           └─ sqlite >=3.34.0,<4.0a0  with the potential options
+│  │              ├─ sqlite [3.34.0|3.35.0|...|3.38.2] would require
+│  │              │  └─ readline >=8.0,<9.0a0 , which can be installed;
+│  │              ├─ sqlite 3.36.0 would require
+│  │              │  └─ readline >=8.1,<9.0a0 , which can be installed;
+│  │              ├─ sqlite [3.37.0|3.37.1|...|3.38.5] would require
+│  │              │  ├─ libzlib >=1.2.11,<2.0.0a0  with the potential options
+│  │              │  │  ├─ libzlib 1.2.11 would require
+│  │              │  │  │  └─ zlib 1.2.11 *_1013, which can be installed;
+│  │              │  │  ├─ libzlib 1.2.11 would require
+│  │              │  │  │  └─ zlib 1.2.11 *_1014, which can be installed;
+│  │              │  │  ├─ libzlib 1.2.11 would require
+│  │              │  │  │  └─ zlib 1.2.11 *_1012, which can be installed;
+│  │              │  │  ├─ libzlib 1.2.12 would require
+│  │              │  │  │  └─ zlib 1.2.12 *_0, which can be installed;
+│  │              │  │  ├─ libzlib 1.2.12 would require
+│  │              │  │  │  └─ zlib 1.2.12 *_1, which can be installed;
+│  │              │  │  ├─ libzlib 1.2.12 would require
+│  │              │  │  │  └─ zlib 1.2.12 *_2, which can be installed;
+│  │              │  │  ├─ libzlib 1.2.12 would require
+│  │              │  │  │  └─ zlib 1.2.12 *_3, which can be installed;
+│  │              │  │  ├─ libzlib 1.2.12 would require
+│  │              │  │  │  └─ zlib 1.2.12 *_4, which can be installed;
+│  │              │  │  ├─ libzlib 1.2.13 would require
+│  │              │  │  │  └─ zlib 1.2.13 *_4, which can be installed;
+│  │              │  │  ├─ libzlib 1.2.13 would require
+│  │              │  │  │  └─ zlib 1.2.13 *_6, which can be installed;
+│  │              │  │  ├─ libzlib 1.2.13 would require
+│  │              │  │  │  └─ zlib 1.2.13 *_5, which can be installed;
+│  │              │  │  ├─ libzlib 1.3 would require
+│  │              │  │  │  └─ zlib 1.3 *_0, which can be installed;
+│  │              │  │  ├─ libzlib 1.3.1 would require
+│  │              │  │  │  └─ zlib 1.3.1 *_1, which can be installed;
+│  │              │  │  ├─ libzlib 1.3.1 would require
+│  │              │  │  │  └─ zlib 1.3.1 *_2, which can be installed;
+│  │              │  │  └─ libzlib 1.3.1 would require
+│  │              │  │     └─ zlib 1.3.1 *_0, which can be installed;
+│  │              │  └─ readline >=8.1,<9.0a0 , which can be installed;
+│  │              ├─ sqlite [3.38.3|3.38.5|...|3.39.3] would require
+│  │              │  └─ zlib >=1.2.12,<1.3.0a0 , which can be installed;
+│  │              ├─ sqlite [3.39.2|3.39.3|3.39.4] would require
+│  │              │  └─ libzlib >=1.2.12,<2.0.0a0 , which can be installed (as previously explained);
+│  │              ├─ sqlite [3.40.0|3.41.2|...|3.46.0] would require
+│  │              │  └─ libzlib [>=1.2.13,<2.0.0a0 |>=1.2.13,<2.0a0 ], which can be installed (as previously explained);
+│  │              ├─ sqlite [3.46.1|3.47.0|3.47.2|3.48.0|3.49.1] would require
+│  │              │  └─ libzlib >=1.3.1,<2.0a0 , which can be installed (as previously explained);
+│  │              ├─ sqlite 3.49.0 would require
+│  │              │  └─ libsqlite 3.49.0 hee588c1_0, which does not exist (perhaps a missing channel);
+│  │              ├─ sqlite [3.40.0|3.40.1] would require
+│  │              │  └─ zlib >=1.2.13,<1.3.0a0 , which can be installed;
+│  │              └─ sqlite [3.41.1|3.41.2|3.45.3] would require
+│  │                 └─ zlib >=1.2.13,<2.0a0 , which can be installed;
+│  ├─ opencv [4.10.0|4.11.0|...|4.9.0] would require
+│  │  ├─ py-opencv [4.10.0 headless_py39h1c9db89_0|4.10.0 headless_py39h1c9db89_1|...|4.9.0 qt6_py39he623809_615], which requires
+│  │  │  └─ python >=3.9,<3.10.0a0 , which can be installed;
+│  │  └─ python >=3.9,<3.10.0a0 , which can be installed;
+│  ├─ opencv 4.5.0 would require
+│  │  └─ libopencv 4.5.0 py36_5, which does not exist (perhaps a missing channel);
+│  ├─ opencv 4.5.0 would require
+│  │  └─ libopencv 4.5.0 py36_6, which does not exist (perhaps a missing channel);
+│  ├─ opencv [4.5.2|4.5.3|4.5.5] would require
+│  │  └─ libopencv [4.5.2 py38hd24989e_1|4.5.3 py38h2421610_4|...|4.5.5 py38hd60e7aa_0], which requires
+│  │     └─ libtiff >=4.3.0,<4.5.0a0  with the potential options
+│  │        ├─ libtiff [4.3.0|4.4.0] would require
+│  │        │  └─ zstd >=1.5.2,<1.6.0a0 , which can be installed;
+│  │        └─ libtiff 4.3.0 would require
+│  │           └─ zstd >=1.5.0,<1.6.0a0 , which can be installed;
+│  ├─ opencv [4.10.0|4.11.0|...|4.9.0] would require
+│  │  ├─ py-opencv [4.10.0 headless_py310h17dd4f5_14|4.10.0 headless_py310h17dd4f5_15|...|4.9.0 qt6_py310hfbaaabc_615], which requires
+│  │  │  └─ python >=3.10,<3.11.0a0 , which can be installed;
+│  │  └─ python >=3.10,<3.11.0a0 , which can be installed;
+│  ├─ opencv 4.5.5 would require
+│  │  └─ libopencv [4.5.5 py38h3d8de8b_10|4.5.5 py38hdaef270_10], which requires
+│  │     └─ libtiff >=4.4.0,<4.5.0a0 , which can be installed (as previously explained);
+│  ├─ opencv [4.5.5|4.6.0|4.7.0] would require
+│  │  └─ libopencv [4.5.5 py38hc65905f_11|4.5.5 py38hc65905f_12|...|4.7.0 py38h9896f59_2], which requires
+│  │     └─ qt-main [>=5.15.3,<5.16.0a0 |>=5.15.4,<5.16.0a0 |>=5.15.6,<5.16.0a0 |>=5.15.8,<5.16.0a0 ] but there are no viable options
+│  │        ├─ qt-main [5.15.3|5.15.4|5.15.6|5.15.8] would require
+│  │        │  └─ icu >=70.1,<71.0a0 , which conflicts with any installable versions previously reported;
+│  │        ├─ qt-main [5.15.15|5.15.8] would require
+│  │        │  └─ icu >=75.1,<76.0a0 , which conflicts with any installable versions previously reported;
+│  │        ├─ qt-main 5.15.8 would require
+│  │        │  └─ icu >=72.1,<73.0a0 , which conflicts with any installable versions previously reported;
+│  │        └─ qt-main 5.15.8 would require
+│  │           └─ icu >=73.2,<74.0a0 , which conflicts with any installable versions previously reported;
+│  ├─ opencv 4.5.5 would require
+│  │  └─ libopencv [4.5.5 py38h001db16_4|4.5.5 py38h4fbf536_3|4.5.5 py38hd60e7aa_1|4.5.5 py38hd60e7aa_2], which requires
+│  │     └─ harfbuzz [>=3.3.1,<4.0a0 |>=3.4.0,<4.0a0 ], which requires
+│  │        └─ icu >=69.1,<70.0a0 , which conflicts with any installable versions previously reported;
+│  ├─ opencv [4.10.0|4.11.0|...|4.9.0] would require
+│  │  ├─ py-opencv [4.10.0 headless_py311h006e898_10|4.10.0 headless_py311h006e898_11|...|4.9.0 qt6_py311hf568a74_610], which requires
+│  │  │  └─ python >=3.11,<3.12.0a0 , which can be installed;
+│  │  └─ python >=3.11,<3.12.0a0 , which can be installed;
+│  ├─ opencv [4.10.0|4.11.0|4.8.1|4.9.0] would require
+│  │  ├─ py-opencv [4.10.0 headless_py312h0ec8939_7|4.10.0 headless_py312h0ec8939_8|...|4.9.0 qt6_py312hb24711e_615], which requires
+│  │  │  └─ python >=3.12,<3.13.0a0 , which can be installed;
+│  │  └─ python >=3.12,<3.13.0a0 , which can be installed;
+│  ├─ opencv [4.10.0|4.11.0] would require
+│  │  ├─ py-opencv [4.10.0 headless_py313hd67762b_15|4.10.0 headless_py313he630e40_15|...|4.11.0 qt6_py313h0a6ee6c_602], which requires
+│  │  │  └─ python >=3.13,<3.14.0a0 , which can be installed;
+│  │  └─ python >=3.13,<3.14.0a0 , which can be installed;
+│  ├─ opencv [4.10.0|4.8.0|4.8.1|4.9.0] would require
+│  │  └─ libopencv [4.10.0 headless_py38h909be62_1|4.10.0 headless_py38he6231d4_0|...|4.9.0 qt6_py38hd30d2b6_610], which requires
+│  │     ├─ harfbuzz [>=8.2.0,<9.0a0 |>=8.2.1,<9.0a0 |>=8.3.0,<9.0a0 |>=8.4.0,<9.0a0 |>=8.5.0,<9.0a0 ], which requires
+│  │     │  └─ icu >=73.2,<74.0a0 , which conflicts with any installable versions previously reported;
+│  │     └─ qt6-main [>=6.6.2,<6.7.0a0 |>=6.6.3,<6.7.0a0 ], which requires
+│  │        └─ icu >=73.2,<74.0a0 , which conflicts with any installable versions previously reported;
+│  ├─ opencv 4.10.0 would require
+│  │  └─ libopencv [4.10.0 headless_py38h5642e36_2|4.10.0 headless_py38h6d6e6fc_3|4.10.0 qt5_py38h6ada205_502|4.10.0 qt5_py38h7a86dce_503], which requires
+│  │     └─ harfbuzz >=9.0.0,<10.0a0  but there are no viable options
+│  │        ├─ harfbuzz [7.3.0|8.2.0|...|9.0.0], which cannot be installed (as previously explained);
+│  │        └─ harfbuzz 9.0.0 would require
+│  │           └─ icu >=75.1,<76.0a0 , which conflicts with any installable versions previously reported;
+│  ├─ opencv 4.10.0 would require
+│  │  └─ libopencv [4.10.0 qt6_py38h3839c77_603|4.10.0 qt6_py38hae4ff88_602], which requires
+│  │     └─ qt6-main >=6.7.2,<6.9.0a0 , which requires
+│  │        └─ zstd >=1.5.6,<1.6.0a0 , which can be installed;
+│  ├─ opencv [4.5.3|4.6.0|4.7.0] would require
+│  │  └─ libopencv [4.5.3 py38hc6b509d_8|4.6.0 py38h216e096_8|...|4.7.0 py38hb32f1de_1], which requires
+│  │     └─ harfbuzz >=6.0.0,<7.0a0  but there are no viable options
+│  │        ├─ harfbuzz [6.0.0|7.3.0] would require
+│  │        │  └─ icu >=72.1,<73.0a0 , which conflicts with any installable versions previously reported;
+│  │        └─ harfbuzz 6.0.0 would require
+│  │           └─ icu >=70.1,<71.0a0 , which conflicts with any installable versions previously reported;
+│  ├─ opencv [4.7.0|4.8.0] would require
+│  │  └─ libopencv [4.7.0 py38h2f1dfbd_6|4.7.0 py38h413103c_3|...|4.8.0 py38he4b2ccc_1], which requires
+│  │     └─ harfbuzz >=7.3.0,<8.0a0 , which cannot be installed (as previously explained);
+│  ├─ opencv 4.10.0 would require
+│  │  └─ qt-main >=5.15.2,<5.16.0a0  with the potential options
+│  │     ├─ qt-main [5.15.3|5.15.4|5.15.6|5.15.8], which cannot be installed (as previously explained);
+│  │     ├─ qt-main [5.15.15|5.15.8], which cannot be installed (as previously explained);
+│  │     ├─ qt-main 5.15.8, which cannot be installed (as previously explained);
+│  │     ├─ qt-main 5.15.8, which cannot be installed (as previously explained);
+│  │     ├─ qt-main 5.15.2 would require
+│  │     │  └─ icu >=69.1,<70.0a0 , which conflicts with any installable versions previously reported;
+│  │     ├─ qt-main 5.15.2 would require
+│  │     │  └─ zstd >=1.5.0,<1.6.0a0 , which can be installed;
+│  │     └─ qt-main 5.15.2 would require
+│  │        └─ zstd >=1.5.2,<1.6.0a0 , which can be installed;
+│  └─ opencv [4.5.5|4.6.0] would require
+│     └─ _openmp_mutex >=5.1 , which conflicts with any installable versions previously reported;
+├─ pin-1 is not installable because it requires
+│  └─ python 3.8.* , which conflicts with any installable versions previously reported;
+├─ qt 5.9.7**  is not installable because it conflicts with any installable versions previously reported;
+├─ readline 7.0**  is not installable because it conflicts with any installable versions previously reported;
+├─ zlib 1.2.11**  is not installable because it conflicts with any installable versions previously reported;
+└─ zstd 1.4.9**  is not installable because it conflicts with any installable versions previously reported.
+
+Pins seem to be involved in the conflict. Currently pinned specs:
+ - python 3.8.* (labeled as 'pin-1')
+
+

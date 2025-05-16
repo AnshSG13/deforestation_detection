@@ -1,0 +1,117 @@
+/home/asadhgauri_umass_edu/deforestation_detection/mambabcd_model/MambaCD/classification/models/vmamba.py:295: FutureWarning: `torch.cuda.amp.custom_fwd(args...)` is deprecated. Please use `torch.amp.custom_fwd(args..., device_type='cuda')` instead.
+  def forward(ctx, u, delta, A, B, C, D=None, delta_bias=None, delta_softplus=False, nrows=1, backnrows=1, oflex=True):
+/home/asadhgauri_umass_edu/deforestation_detection/mambabcd_model/MambaCD/classification/models/vmamba.py:303: FutureWarning: `torch.cuda.amp.custom_bwd(args...)` is deprecated. Please use `torch.amp.custom_bwd(args..., device_type='cuda')` instead.
+  def backward(ctx, dout, *args):
+/home/asadhgauri_umass_edu/deforestation_detection/mambabcd_model/MambaCD/classification/models/vmamba.py:318: FutureWarning: `torch.cuda.amp.custom_fwd(args...)` is deprecated. Please use `torch.amp.custom_fwd(args..., device_type='cuda')` instead.
+  def forward(ctx, u, delta, A, B, C, D=None, delta_bias=None, delta_softplus=False, nrows=1, backnrows=1, oflex=True):
+/home/asadhgauri_umass_edu/deforestation_detection/mambabcd_model/MambaCD/classification/models/vmamba.py:326: FutureWarning: `torch.cuda.amp.custom_bwd(args...)` is deprecated. Please use `torch.amp.custom_bwd(args..., device_type='cuda')` instead.
+  def backward(ctx, dout, *args):
+/home/asadhgauri_umass_edu/deforestation_detection/mambabcd_model/MambaCD/classification/models/vmamba.py:339: FutureWarning: `torch.cuda.amp.custom_fwd(args...)` is deprecated. Please use `torch.amp.custom_fwd(args..., device_type='cuda')` instead.
+  def forward(ctx, u, delta, A, B, C, D=None, delta_bias=None, delta_softplus=False, nrows=1, backnrows=1, oflex=True):
+/home/asadhgauri_umass_edu/deforestation_detection/mambabcd_model/MambaCD/classification/models/vmamba.py:347: FutureWarning: `torch.cuda.amp.custom_bwd(args...)` is deprecated. Please use `torch.amp.custom_bwd(args..., device_type='cuda')` instead.
+  def backward(ctx, dout, *args):
+/home/asadhgauri_umass_edu/deforestation_detection/mambabcd_model/classification/models/vmamba.py:339: FutureWarning: `torch.cuda.amp.custom_fwd(args...)` is deprecated. Please use `torch.amp.custom_fwd(args..., device_type='cuda')` instead.
+  def forward(ctx, u, delta, A, B, C, D=None, delta_bias=None, delta_softplus=False, nrows=1, backnrows=1, oflex=True):
+/home/asadhgauri_umass_edu/deforestation_detection/mambabcd_model/classification/models/vmamba.py:347: FutureWarning: `torch.cuda.amp.custom_bwd(args...)` is deprecated. Please use `torch.amp.custom_bwd(args..., device_type='cuda')` instead.
+  def backward(ctx, dout, *args):
+/home/asadhgauri_umass_edu/deforestation_detection/mambabcd_model/classification/models/vmamba.py:362: FutureWarning: `torch.cuda.amp.custom_fwd(args...)` is deprecated. Please use `torch.amp.custom_fwd(args..., device_type='cuda')` instead.
+  def forward(ctx, u, delta, A, B, C, D=None, delta_bias=None, delta_softplus=False, nrows=1, backnrows=1, oflex=True):
+/home/asadhgauri_umass_edu/deforestation_detection/mambabcd_model/classification/models/vmamba.py:370: FutureWarning: `torch.cuda.amp.custom_bwd(args...)` is deprecated. Please use `torch.amp.custom_bwd(args..., device_type='cuda')` instead.
+  def backward(ctx, dout, *args):
+/home/asadhgauri_umass_edu/deforestation_detection/mambabcd_model/classification/models/vmamba.py:383: FutureWarning: `torch.cuda.amp.custom_fwd(args...)` is deprecated. Please use `torch.amp.custom_fwd(args..., device_type='cuda')` instead.
+  def forward(ctx, u, delta, A, B, C, D=None, delta_bias=None, delta_softplus=False, nrows=1, backnrows=1, oflex=True):
+/home/asadhgauri_umass_edu/deforestation_detection/mambabcd_model/classification/models/vmamba.py:391: FutureWarning: `torch.cuda.amp.custom_bwd(args...)` is deprecated. Please use `torch.amp.custom_bwd(args..., device_type='cuda')` instead.
+  def backward(ctx, dout, *args):
+File exists: ../../../../../../work/pi_jaimedavila_umass_edu/asadhgauri_umass_edu/chips_100/test.txt
+test_data_name_list first 5 entries: ['chip_00777', 'chip_02996', 'chip_00250', 'chip_03846', 'chip_04993']
+=> merge config from configs/vssm1/vssm_small_224.yaml
+Dataset path: ../../../../../../work/pi_jaimedavila_umass_edu/asadhgauri_umass_edu/chips_100/train
+Number of items in data_list: 73
+Sample items: ['chip_11895', 'chip_01343', 'chip_05622', 'chip_01010', 'chip_07292']
+Found 73 valid files out of 73
+Created dataset with 143 total samples
+Dataset path: ../../../../../../work/pi_jaimedavila_umass_edu/asadhgauri_umass_edu/chips_100/val
+Number of items in data_list: 9
+Sample items: ['chip_02352', 'chip_00902', 'chip_01698', 'chip_01435', 'chip_02623']
+Found 9 valid files out of 9
+Created dataset with 9 total samples
+Dataset path: ../../../../../../work/pi_jaimedavila_umass_edu/asadhgauri_umass_edu/chips_100/test
+Number of items in data_list: 18
+Sample items: ['chip_00777', 'chip_02996', 'chip_00250', 'chip_03846', 'chip_04993']
+Found 18 valid files out of 18
+Created dataset with 18 total samples
+Using EinFFT in VSSBlock (cm_type=EinFFT)
+Using EinFFT in VSSBlock (cm_type=EinFFT)
+Using EinFFT in VSSBlock (cm_type=EinFFT)
+Using EinFFT in VSSBlock (cm_type=EinFFT)
+Using EinFFT in VSSBlock (cm_type=EinFFT)
+Using EinFFT in VSSBlock (cm_type=EinFFT)
+Using EinFFT in VSSBlock (cm_type=EinFFT)
+Using EinFFT in VSSBlock (cm_type=EinFFT)
+Using EinFFT in VSSBlock (cm_type=EinFFT)
+Using EinFFT in VSSBlock (cm_type=EinFFT)
+Using EinFFT in VSSBlock (cm_type=EinFFT)
+Using EinFFT in VSSBlock (cm_type=EinFFT)
+Using EinFFT in VSSBlock (cm_type=EinFFT)
+Using EinFFT in VSSBlock (cm_type=EinFFT)
+Using EinFFT in VSSBlock (cm_type=EinFFT)
+Using EinFFT in VSSBlock (cm_type=EinFFT)
+Using EinFFT in VSSBlock (cm_type=EinFFT)
+Using EinFFT in VSSBlock (cm_type=EinFFT)
+Using EinFFT in VSSBlock (cm_type=EinFFT)
+Using EinFFT in VSSBlock (cm_type=EinFFT)
+Using EinFFT in VSSBlock (cm_type=EinFFT)
+Successfully load ckpt ../pretrained_weight/vssm_small_0229_ckpt_epoch_222.pth
+_IncompatibleKeys(missing_keys=['layers.0.blocks.0.mlp.complex_weight_1', 'layers.0.blocks.0.mlp.complex_weight_2', 'layers.0.blocks.0.mlp.complex_bias_1', 'layers.0.blocks.0.mlp.complex_bias_2', 'layers.0.blocks.1.mlp.complex_weight_1', 'layers.0.blocks.1.mlp.complex_weight_2', 'layers.0.blocks.1.mlp.complex_bias_1', 'layers.0.blocks.1.mlp.complex_bias_2', 'layers.1.blocks.0.mlp.complex_weight_1', 'layers.1.blocks.0.mlp.complex_weight_2', 'layers.1.blocks.0.mlp.complex_bias_1', 'layers.1.blocks.0.mlp.complex_bias_2', 'layers.1.blocks.1.mlp.complex_weight_1', 'layers.1.blocks.1.mlp.complex_weight_2', 'layers.1.blocks.1.mlp.complex_bias_1', 'layers.1.blocks.1.mlp.complex_bias_2', 'layers.2.blocks.0.mlp.complex_weight_1', 'layers.2.blocks.0.mlp.complex_weight_2', 'layers.2.blocks.0.mlp.complex_bias_1', 'layers.2.blocks.0.mlp.complex_bias_2', 'layers.2.blocks.1.mlp.complex_weight_1', 'layers.2.blocks.1.mlp.complex_weight_2', 'layers.2.blocks.1.mlp.complex_bias_1', 'layers.2.blocks.1.mlp.complex_bias_2', 'layers.2.blocks.2.mlp.complex_weight_1', 'layers.2.blocks.2.mlp.complex_weight_2', 'layers.2.blocks.2.mlp.complex_bias_1', 'layers.2.blocks.2.mlp.complex_bias_2', 'layers.2.blocks.3.mlp.complex_weight_1', 'layers.2.blocks.3.mlp.complex_weight_2', 'layers.2.blocks.3.mlp.complex_bias_1', 'layers.2.blocks.3.mlp.complex_bias_2', 'layers.2.blocks.4.mlp.complex_weight_1', 'layers.2.blocks.4.mlp.complex_weight_2', 'layers.2.blocks.4.mlp.complex_bias_1', 'layers.2.blocks.4.mlp.complex_bias_2', 'layers.2.blocks.5.mlp.complex_weight_1', 'layers.2.blocks.5.mlp.complex_weight_2', 'layers.2.blocks.5.mlp.complex_bias_1', 'layers.2.blocks.5.mlp.complex_bias_2', 'layers.2.blocks.6.mlp.complex_weight_1', 'layers.2.blocks.6.mlp.complex_weight_2', 'layers.2.blocks.6.mlp.complex_bias_1', 'layers.2.blocks.6.mlp.complex_bias_2', 'layers.2.blocks.7.mlp.complex_weight_1', 'layers.2.blocks.7.mlp.complex_weight_2', 'layers.2.blocks.7.mlp.complex_bias_1', 'layers.2.blocks.7.mlp.complex_bias_2', 'layers.2.blocks.8.mlp.complex_weight_1', 'layers.2.blocks.8.mlp.complex_weight_2', 'layers.2.blocks.8.mlp.complex_bias_1', 'layers.2.blocks.8.mlp.complex_bias_2', 'layers.2.blocks.9.mlp.complex_weight_1', 'layers.2.blocks.9.mlp.complex_weight_2', 'layers.2.blocks.9.mlp.complex_bias_1', 'layers.2.blocks.9.mlp.complex_bias_2', 'layers.2.blocks.10.mlp.complex_weight_1', 'layers.2.blocks.10.mlp.complex_weight_2', 'layers.2.blocks.10.mlp.complex_bias_1', 'layers.2.blocks.10.mlp.complex_bias_2', 'layers.2.blocks.11.mlp.complex_weight_1', 'layers.2.blocks.11.mlp.complex_weight_2', 'layers.2.blocks.11.mlp.complex_bias_1', 'layers.2.blocks.11.mlp.complex_bias_2', 'layers.2.blocks.12.mlp.complex_weight_1', 'layers.2.blocks.12.mlp.complex_weight_2', 'layers.2.blocks.12.mlp.complex_bias_1', 'layers.2.blocks.12.mlp.complex_bias_2', 'layers.2.blocks.13.mlp.complex_weight_1', 'layers.2.blocks.13.mlp.complex_weight_2', 'layers.2.blocks.13.mlp.complex_bias_1', 'layers.2.blocks.13.mlp.complex_bias_2', 'layers.2.blocks.14.mlp.complex_weight_1', 'layers.2.blocks.14.mlp.complex_weight_2', 'layers.2.blocks.14.mlp.complex_bias_1', 'layers.2.blocks.14.mlp.complex_bias_2', 'layers.3.blocks.0.mlp.complex_weight_1', 'layers.3.blocks.0.mlp.complex_weight_2', 'layers.3.blocks.0.mlp.complex_bias_1', 'layers.3.blocks.0.mlp.complex_bias_2', 'layers.3.blocks.1.mlp.complex_weight_1', 'layers.3.blocks.1.mlp.complex_weight_2', 'layers.3.blocks.1.mlp.complex_bias_1', 'layers.3.blocks.1.mlp.complex_bias_2', 'outnorm0.weight', 'outnorm0.bias', 'outnorm1.weight', 'outnorm1.bias', 'outnorm2.weight', 'outnorm2.bias', 'outnorm3.weight', 'outnorm3.bias'], unexpected_keys=['classifier.norm.weight', 'classifier.norm.bias', 'classifier.head.weight', 'classifier.head.bias', 'layers.0.blocks.0.mlp.fc1.weight', 'layers.0.blocks.0.mlp.fc1.bias', 'layers.0.blocks.0.mlp.fc2.weight', 'layers.0.blocks.0.mlp.fc2.bias', 'layers.0.blocks.1.mlp.fc1.weight', 'layers.0.blocks.1.mlp.fc1.bias', 'layers.0.blocks.1.mlp.fc2.weight', 'layers.0.blocks.1.mlp.fc2.bias', 'layers.1.blocks.0.mlp.fc1.weight', 'layers.1.blocks.0.mlp.fc1.bias', 'layers.1.blocks.0.mlp.fc2.weight', 'layers.1.blocks.0.mlp.fc2.bias', 'layers.1.blocks.1.mlp.fc1.weight', 'layers.1.blocks.1.mlp.fc1.bias', 'layers.1.blocks.1.mlp.fc2.weight', 'layers.1.blocks.1.mlp.fc2.bias', 'layers.2.blocks.0.mlp.fc1.weight', 'layers.2.blocks.0.mlp.fc1.bias', 'layers.2.blocks.0.mlp.fc2.weight', 'layers.2.blocks.0.mlp.fc2.bias', 'layers.2.blocks.1.mlp.fc1.weight', 'layers.2.blocks.1.mlp.fc1.bias', 'layers.2.blocks.1.mlp.fc2.weight', 'layers.2.blocks.1.mlp.fc2.bias', 'layers.2.blocks.2.mlp.fc1.weight', 'layers.2.blocks.2.mlp.fc1.bias', 'layers.2.blocks.2.mlp.fc2.weight', 'layers.2.blocks.2.mlp.fc2.bias', 'layers.2.blocks.3.mlp.fc1.weight', 'layers.2.blocks.3.mlp.fc1.bias', 'layers.2.blocks.3.mlp.fc2.weight', 'layers.2.blocks.3.mlp.fc2.bias', 'layers.2.blocks.4.mlp.fc1.weight', 'layers.2.blocks.4.mlp.fc1.bias', 'layers.2.blocks.4.mlp.fc2.weight', 'layers.2.blocks.4.mlp.fc2.bias', 'layers.2.blocks.5.mlp.fc1.weight', 'layers.2.blocks.5.mlp.fc1.bias', 'layers.2.blocks.5.mlp.fc2.weight', 'layers.2.blocks.5.mlp.fc2.bias', 'layers.2.blocks.6.mlp.fc1.weight', 'layers.2.blocks.6.mlp.fc1.bias', 'layers.2.blocks.6.mlp.fc2.weight', 'layers.2.blocks.6.mlp.fc2.bias', 'layers.2.blocks.7.mlp.fc1.weight', 'layers.2.blocks.7.mlp.fc1.bias', 'layers.2.blocks.7.mlp.fc2.weight', 'layers.2.blocks.7.mlp.fc2.bias', 'layers.2.blocks.8.mlp.fc1.weight', 'layers.2.blocks.8.mlp.fc1.bias', 'layers.2.blocks.8.mlp.fc2.weight', 'layers.2.blocks.8.mlp.fc2.bias', 'layers.2.blocks.9.mlp.fc1.weight', 'layers.2.blocks.9.mlp.fc1.bias', 'layers.2.blocks.9.mlp.fc2.weight', 'layers.2.blocks.9.mlp.fc2.bias', 'layers.2.blocks.10.mlp.fc1.weight', 'layers.2.blocks.10.mlp.fc1.bias', 'layers.2.blocks.10.mlp.fc2.weight', 'layers.2.blocks.10.mlp.fc2.bias', 'layers.2.blocks.11.mlp.fc1.weight', 'layers.2.blocks.11.mlp.fc1.bias', 'layers.2.blocks.11.mlp.fc2.weight', 'layers.2.blocks.11.mlp.fc2.bias', 'layers.2.blocks.12.mlp.fc1.weight', 'layers.2.blocks.12.mlp.fc1.bias', 'layers.2.blocks.12.mlp.fc2.weight', 'layers.2.blocks.12.mlp.fc2.bias', 'layers.2.blocks.13.mlp.fc1.weight', 'layers.2.blocks.13.mlp.fc1.bias', 'layers.2.blocks.13.mlp.fc2.weight', 'layers.2.blocks.13.mlp.fc2.bias', 'layers.2.blocks.14.mlp.fc1.weight', 'layers.2.blocks.14.mlp.fc1.bias', 'layers.2.blocks.14.mlp.fc2.weight', 'layers.2.blocks.14.mlp.fc2.bias', 'layers.3.blocks.0.mlp.fc1.weight', 'layers.3.blocks.0.mlp.fc1.bias', 'layers.3.blocks.0.mlp.fc2.weight', 'layers.3.blocks.0.mlp.fc2.bias', 'layers.3.blocks.1.mlp.fc1.weight', 'layers.3.blocks.1.mlp.fc1.bias', 'layers.3.blocks.1.mlp.fc2.weight', 'layers.3.blocks.1.mlp.fc2.bias'])
+Using MLP in VSSBlock (cm_type=mlp)
+Using MLP in VSSBlock (cm_type=mlp)
+Using MLP in VSSBlock (cm_type=mlp)
+Using MLP in VSSBlock (cm_type=mlp)
+Using MLP in VSSBlock (cm_type=mlp)
+Using MLP in VSSBlock (cm_type=mlp)
+Using MLP in VSSBlock (cm_type=mlp)
+Using MLP in VSSBlock (cm_type=mlp)
+Using MLP in VSSBlock (cm_type=mlp)
+Using MLP in VSSBlock (cm_type=mlp)
+Using MLP in VSSBlock (cm_type=mlp)
+Using MLP in VSSBlock (cm_type=mlp)
+
+--- Starting Epoch 1/2 ---
+  0%|          | 0/5 [00:00<?, ?it/s]/home/asadhgauri_umass_edu/deforestation_detection/mambabcd_model/MambaCD/classification/models/vmamba.py:62: UserWarning: Casting complex values to real discards the imaginary part (Triggered internally at ../aten/src/ATen/native/Copy.cpp:308.)
+  x = x.to(torch.float32)
+ 20%|██        | 1/5 [00:04<00:19,  4.91s/it] 40%|████      | 2/5 [00:08<00:11,  3.87s/it] 60%|██████    | 3/5 [00:11<00:06,  3.50s/it] 80%|████████  | 4/5 [00:14<00:03,  3.31s/it]100%|██████████| 5/5 [00:15<00:00,  2.69s/it]100%|██████████| 5/5 [00:15<00:00,  3.15s/it]
+Epoch 1 Summary: Train Loss=1.1290, Val Loss=0.5199
+---------starting evaluation-----------
+Dataset path: ../../../../../../work/pi_jaimedavila_umass_edu/asadhgauri_umass_edu/chips_100/test
+Number of items in data_list: 18
+Sample items: ['chip_00777', 'chip_02996', 'chip_00250', 'chip_03846', 'chip_04993']
+Found 18 valid files out of 18
+Created dataset with 18 total samples
+/home/asadhgauri_umass_edu/deforestation_detection/mambabcd_model/MambaCD/changedetection/utils_func/metrics.py:25: RuntimeWarning: invalid value encountered in scalar divide
+  Rec = self.confusion_matrix[1, 1] / (self.confusion_matrix[1, 0] + self.confusion_matrix[1, 1])
+Recall rate=nan, Precision=0.0, OA=0.0005645751953125, F1=nan, IoU=0.0, Kappa=0.0
+
+--- Starting Epoch 2/2 ---
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:03<00:15,  3.96s/it] 40%|████      | 2/5 [00:07<00:10,  3.47s/it] 60%|██████    | 3/5 [00:10<00:06,  3.28s/it] 80%|████████  | 4/5 [00:13<00:03,  3.18s/it]100%|██████████| 5/5 [00:14<00:00,  2.56s/it]100%|██████████| 5/5 [00:14<00:00,  2.93s/it]
+Epoch 2 Summary: Train Loss=1.0594, Val Loss=0.5810
+---------starting evaluation-----------
+Dataset path: ../../../../../../work/pi_jaimedavila_umass_edu/asadhgauri_umass_edu/chips_100/test
+Number of items in data_list: 18
+Sample items: ['chip_00777', 'chip_02996', 'chip_00250', 'chip_03846', 'chip_04993']
+Found 18 valid files out of 18
+Created dataset with 18 total samples
+/work/pi_jaimedavila_umass_edu/asadhgauri_umass_edu/.conda/envs/changemamba/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:1033: UserWarning: No positive class found in y_true, recall is set to one for all thresholds.
+  warnings.warn(
+Recall rate=nan, Precision=0.0, OA=0.0003772311740451389, F1=nan, IoU=0.0, Kappa=0.0
+
+Training complete.
+Best round metrics:  []
+Train vs Val Loss curve saved to ../../../saved_models/DEFORESTATION/MambaBCD_Small_1743085402.913571/train_val_loss_curve.png
+Starting final evaluation...
+Calibration curve saved to ../../../saved_models/DEFORESTATION/MambaBCD_Small_1743085402.913571/calibration_curve.png
+Optimal threshold from Precision-Recall analysis (F0.5): 0.41332904
+/home/asadhgauri_umass_edu/deforestation_detection/mambabcd_model/MambaCD/changedetection/utils_func/metrics.py:25: RuntimeWarning: invalid value encountered in scalar divide
+  Rec = self.confusion_matrix[1, 1] / (self.confusion_matrix[1, 0] + self.confusion_matrix[1, 1])
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-0.25345504..57.036514].
+Final Evaluation - Recall: nan, Precision: 0.0, OA: 0.0, F1: nan, IoU: 0.0, Kappa: 0.0
+Sample output saved to ../../../saved_models/DEFORESTATION/MambaBCD_Small_1743085402.913571/threshold_output.png
