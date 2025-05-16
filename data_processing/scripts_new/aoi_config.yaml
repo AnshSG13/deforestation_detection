@@ -1,0 +1,17 @@
+location_1:
+  west: -65.0
+  south: -10.5
+  east: -63.0
+  north: -9.5
+
+location_2:
+  west: -69.0
+  south: -11.0
+  east: -68.0
+  north: -9.0
+
+location_3:
+  west: -51.0
+  south: -4.5
+  east: -50.0
+  north: -2.5
